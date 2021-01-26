@@ -1,0 +1,39 @@
+//kolory
+
+$color1: #eff0f4;
+$color2: rgba(107, 85, 12, 0.863); 
+$color3: rgb(58, 58, 58) ;
+$color4: rgba(45, 45, 250, 0.932) ;
+$color5: rgb(184, 184, 184);
+
+
+$color-white: $color1;
+$color-brown: $color2;
+$color-szary: $color3;
+$color-niebieski: $color4;
+$color-srebrny: $color5;
+
+// kolor tła dla sekcji 
+
+$color-bg-section: $color-srebrny;
+
+//kolor tla stopki
+
+$color-bg-footer: rgba(71, 32, 32, 0.76);
+
+
+// wielkosc bazoowa fontow
+
+$font-base: 10px;
+
+// siatka (grid)
+
+$grid-base: $font-base;
+// odstep miedzy kolumnami 
+$gutter: 1.5 * $grid-base;
+
+// breakpoints dla RWD
+
+$bp-md: 768px;
+$bp-lg: 1024px;
+

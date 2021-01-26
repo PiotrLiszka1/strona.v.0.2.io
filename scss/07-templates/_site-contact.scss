@@ -1,0 +1,21 @@
+.site-contact{
+    background: url(../assets/form.jpg) center/cover fixed;
+    color: $color-white;
+    position: relative;
+    height: 120vh;
+    &__blackout{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+    }
+    &__h2{
+        position: absolute;
+    }
+    &__form{
+        position: absolute;
+        top: 47%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+    }
+}

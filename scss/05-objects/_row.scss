@@ -1,0 +1,9 @@
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5 * $grid-base;
+    @include medium{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,330 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Merienda+One&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Merienda One', cursive; }
+
+p {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  padding: 10px;
+  margin-top: 15px; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px; }
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 74rem; } }
+  @media screen and (min-width: 1024px) {
+    .container {
+      max-width: 122rem; } }
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 15px; }
+  @media screen and (min-width: 768px) {
+    .row {
+      flex-direction: row; } }
+
+.col {
+  padding: 0 15px 15px 15px;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .col--md50 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (min-width: 768px) {
+    .col--md33 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; } }
+  @media screen and (min-width: 768px) {
+    .col--md25 {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+  @media screen and (min-width: 1024px) {
+    .col--lg50 {
+      flex: 0 0 50%;
+      max-width: 50%; } }
+  @media screen and (min-width: 1024px) {
+    .col--lg33 {
+      flex: 0 0 33.333333%;
+      max-width: 33.333333%; } }
+  @media screen and (min-width: 1024px) {
+    .col--lg25 {
+      flex: 0 0 25%;
+      max-width: 25%; } }
+
+.btn {
+  color: #eff0f4;
+  border: none;
+  border-radius: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: .9rem;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: .5s; }
+  .btn--blue {
+    background-color: rgba(45, 45, 250, 0.932); }
+    .btn--blue:hover {
+      background-color: rgba(6, 6, 238, 0.932); }
+  .btn--szary {
+    background-color: #3a3a3a; }
+    .btn--szary:hover {
+      background-color: #5e5e5e; }
+  .btn--outline {
+    background-color: transparent;
+    border: 1px solid #eff0f4; }
+    .btn--outline:hover {
+      background-color: rgba(94, 87, 87, 0.377); }
+  .btn--circle {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    line-height: 10rem;
+    text-align: center;
+    padding: 0; }
+
+.blackout {
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.heading--h1 {
+  color: #3a3a3a;
+  font-size: 4rem; }
+  @media screen and (min-width: 768px) {
+    .heading--h1 {
+      font-size: 5rem; } }
+  @media screen and (min-width: 1024px) {
+    .heading--h1 {
+      font-size: 6rem; } }
+.heading--h2 {
+  color: #3a3a3a;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center; }
+.heading--h2white {
+  color: white;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center; }
+
+.nav__item {
+  font-size: 29px; }
+  @media screen and (min-width: 768px) {
+    .nav__item {
+      display: inline-block;
+      width: 23%; } }
+.nav__link {
+  color: #3a3a3a;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: .9rem;
+  display: block;
+  transition-duration: .5s; }
+  .nav__link:hover {
+    background-color: #b8b8b8; }
+
+.image-box {
+  border-radius: .6rem;
+  box-shadow: 0px 0px 26px #eff0f4; }
+  .image-box:hover {
+    box-shadow: 0px 0px 36px #3a3a3a; }
+  .image-box__image {
+    background: url(../assets/kw.jpg) center/cover no-repeat;
+    height: 33rem;
+    display: block;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: 0.6rem; }
+    .image-box__image--next {
+      background: url(../assets/kw2.jpg) center/cover no-repeat; }
+    .image-box__image--next1 {
+      background: url(../assets/kw3.jpg) center/cover no-repeat; }
+    .image-box__image--next2 {
+      background: url(../assets/nag.jpg) center/cover no-repeat; }
+  .image-box__text {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 2.4rem;
+    margin: 2rem; }
+
+.social {
+  width: 18.5rem;
+  height: 5rem;
+  background-color: #eff0f4;
+  box-shadow: 0 0 1rem rgba(45, 45, 250, 0.932);
+  z-index: 1;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  transition: 1s ease-in-out; }
+  .social:hover {
+    left: 0;
+    cursor: grabbing; }
+  .social__item {
+    background: url(../assets/sprites_socials.png);
+    width: 4.3rem;
+    height: 4.2rem;
+    overflow: hidden;
+    display: inline-block;
+    margin: .5rem 0;
+    transition: .25s ease-in-out; }
+    .social__item--facebook {
+      background-position: 0rem -0.1rem; }
+      .social__item--facebook:hover {
+        background-position: 0rem -4.3rem; }
+    .social__item--twitter {
+      background-position: -5.2rem -0.1rem; }
+      .social__item--twitter:hover {
+        background-position: -5.2rem -4.3rem; }
+    .social__item--youtube {
+      background-position: -10.4rem -0.1rem; }
+      .social__item--youtube:hover {
+        background-position: -10.4rem -4.3rem; }
+    .social__item--in {
+      background-position: -15.5rem -0.1rem; }
+      .social__item--in:hover {
+        background-position: -15.5rem -4.3rem; }
+
+.form {
+  width: 88%; }
+  @media screen and (min-width: 768px) {
+    .form {
+      width: 60%; } }
+  @media screen and (min-width: 1024px) {
+    .form {
+      width: 50%; } }
+  .form__label {
+    font-size: 2rem; }
+  .form__item {
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: 2rem;
+    padding: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.411);
+    margin-bottom: .2rem;
+    border: 0.1rem solid #eff0f4;
+    border-radius: .4rem;
+    outline: 0;
+    resize: none;
+    font-family: inherit; }
+    .form__item:focus {
+      background-color: rgba(255, 255, 255, 0.219);
+      color: black; }
+
+.site-header {
+  background: url(../assets/header.jpg) center/cover no-repeat fixed;
+  height: 100vh;
+  position: relative; }
+  .site-header__nav {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px; }
+  .site-header__h1 {
+    position: absolute;
+    bottom: 15%;
+    width: 100%;
+    text-align: center; }
+
+.site-section {
+  padding-top: 3rem;
+  min-height: 70vh; }
+  .site-section--bg-color {
+    background-color: #b8b8b8; }
+
+.site-body__social {
+  position: fixed;
+  left: -13.7rem;
+  bottom: 40%; }
+.site-body__button {
+  position: fixed;
+  bottom: 2%;
+  z-index: 1;
+  right: 2px; }
+
+.site-contact {
+  background: url(../assets/form.jpg) center/cover fixed;
+  color: #eff0f4;
+  position: relative;
+  height: 120vh; }
+  .site-contact__blackout {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; }
+  .site-contact__h2 {
+    position: absolute; }
+  .site-contact__form {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -40%); }
+
+.site-footer {
+  background-color: rgba(71, 32, 32, 0.76);
+  height: auto;
+  color: #b8b8b8; }
+
+.text-color-white {
+  color: #eff0f4; }
+
+.text-align-center {
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+.site-body{
+    &__social{
+        position: fixed;
+        left: -13.7rem;
+        bottom: 40%;
+    }
+    &__button{
+        // przy pozycjonowaniu absolutnym dodajemy r0 l0
+        position: fixed;
+        bottom: 2%;
+        z-index: 1;
+        // margin: 0 auto;
+        // left: 0;
+        right: 2px;
+    }
+}

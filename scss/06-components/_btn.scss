@@ -1,0 +1,44 @@
+.btn{
+    color: $color-white;
+    border: none;
+    border-radius: 1rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: .9rem;
+    text-align: center;
+    // width: 10rem;
+    text-decoration: none;
+    transition-duration: .5s;
+    &--blue{
+        background-color: $color-niebieski;
+        &:hover{
+            background-color: darken($color-niebieski, 10%);
+        }
+    }
+    &--szary{
+        background-color: $color-szary;
+        &:hover{
+            background-color: lighten($color-szary, 14%);
+        }
+    }
+
+    &--outline{
+        background-color: transparent;
+        border: 1px solid $color-white;
+        &:hover {
+            background-color: rgba(94, 87, 87, 0.377);
+        }
+    }
+
+    &--circle {
+        border-radius: 50%;
+        width: 10rem;
+        height: 10rem;
+        line-height: 10rem;
+        text-align: center;
+        padding: 0;
+    }
+
+
+}

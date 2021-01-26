@@ -1,0 +1,26 @@
+.heading{
+    &--h1{
+        color: $color-szary;
+        font-size: 4rem;
+        @include medium{
+            font-size: 5rem;
+        }
+        @include large{
+            font-size: 6rem;
+        }
+    }
+    &--h2{
+        color: $color-szary;
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+
+    }
+    &--h2white{
+        color: white;
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
+        
+    }
+}
