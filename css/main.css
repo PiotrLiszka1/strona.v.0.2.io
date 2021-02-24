@@ -186,17 +186,17 @@ p {
   .image-box:hover {
     box-shadow: 0px 0px 36px #3a3a3a; }
   .image-box__image {
-    background: url(../assets/kw.jpg) center/cover no-repeat;
+    background: url(../assets/kawka1.jpg) center/cover no-repeat;
     height: 33rem;
     display: block;
     border-top-left-radius: .6rem;
     border-top-right-radius: 0.6rem; }
     .image-box__image--next {
-      background: url(../assets/kw2.jpg) center/cover no-repeat; }
+      background: url(../assets/kawa2.jpg) center/cover no-repeat; }
     .image-box__image--next1 {
-      background: url(../assets/kw3.jpg) center/cover no-repeat; }
+      background: url(../assets/kawa3.jpg) center/cover no-repeat; }
     .image-box__image--next2 {
-      background: url(../assets/nag.jpg) center/cover no-repeat; }
+      background: url(../assets/kawa4.webp) center/cover no-repeat; }
   .image-box__text {
     text-align: center;
     padding: 1.5rem;

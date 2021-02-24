@@ -5,20 +5,20 @@
         box-shadow: 0px 0px 36px $color-szary;
     }
     &__image{
-        background: url(../assets/kw.jpg) center/cover no-repeat;
+        background: url(../assets/kawka1.jpg) center/cover no-repeat;
         height: 33rem;
         display: block;
         border-top-left-radius: .6rem; 
         border-top-right-radius: .6rem ; 
         &--next{
-            background: url(../assets/kw2.jpg) center/cover no-repeat;
+            background: url(../assets/kawa2.jpg) center/cover no-repeat;
 
         }
         &--next1{
-            background: url(../assets/kw3.jpg) center/cover no-repeat;
+            background: url(../assets/kawa3.jpg) center/cover no-repeat;
         }
         &--next2{
-            background: url(../assets/nag.jpg) center/cover no-repeat;
+            background: url(../assets/kawa4.webp) center/cover no-repeat;
         }
         @mixin medium {
             height: 19rem;
